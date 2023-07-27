@@ -1,0 +1,174 @@
+{
+  "Header": {
+    "title": "Let's make your idea a reality.",
+    "paragraph": "Altiro is a dedicated software development agency. Our specialty is crafting custom solutions, enabling you to focus on what you do best."
+  },
+  "About": {
+    "paragraph": "We're an emerging software development agency blending fresh innovation with deep expertise. Our seasoned team is ready to transform your vision into top-tier digital solutions. Your project's success is our mission. Join us on this journey, and let's grow together, turning software dreams into reality.",
+    "Why": [
+      "Expertise and Experience",
+      "Innovative Approach",
+      "Client-Centric Development",
+      "Agile Methodology"
+    ],
+    "Why2": [
+      "Commitment to Quality",
+      "Transparent Communication",
+      "Competitive Pricing",
+      "Future Growth Partnership"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-mobile",
+      "name": "Mobile Application Development",
+      "text": "We deliver engaging, high-performance mobile apps for iOS and Android to drive your business growth."
+    },
+    {
+      "icon": "fa fa-desktop",
+      "name": "Web Application Development",
+      "text": "We create robust, user-friendly web applications tailored to enhance your online presence and catalyze business growth."
+    },
+    {
+      "icon": "fa fa-ship",
+      "name": "DevOps & CI/CD Implementation",
+      "text": "We revolutionize your workflow with bespoke DevOps and CI/CD implementation, fueling rapid software delivery and operational excellence."
+    },
+    {
+      "icon": "fa fa-database",
+      "name": "Database Design & Backend Development",
+      "text": "We architect reliable databases and engineer robust backends, forming the foundation of high-performing digital solutions tailored for your business."
+    },
+    {
+      "icon": "fa fa-gears",
+      "name": "Software Quality Assurance and Automation",
+      "text": "We offer comprehensive Software Quality Assurance and Automation services, including test automation, cross-platform and performance testing, security assessments, CI/CD integration, and detailed documentation and training."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Data Analytics and AI",
+      "text": "Implementing data analytics, machine learning, or AI capabilities to support decision-making and predictive analysis."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/fixed.jpg",
+      "name": "Kush Shah",
+      "job": "Founder & CEO"
+    },
+    {
+      "img": "img/team/dog3.png",
+      "name": "We're Hiring!",
+      "job": "Please inquire via email with a resume"
+    }
+  ],
+  "Contact": {
+    "address": "2921 W 38th Ave #330 Denver, Colorado 80211, USA ",
+    "phone": "+1 123 456 1234",
+    "email": "info@altiro.io",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-code",
+      "title": "Tailored solutions",
+      "text": "Customized software solutions tailored to meet your unique requirements."
+    },
+    {
+      "icon": "fa fa-money",
+      "title": "Cost effective",
+      "text": "Avoid costs for software licenses, infrastructure setup, and ongoing maintenance."
+    },
+    {
+      "icon": "fa fa-bar-chart",
+      "title": "Scalability and Adaptability",
+      "text": "Scale your software as your business grows and needs change."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Increased innovation",
+      "text": "Stay ahead of the curve with up-to-date knowledge of technological advancements and industry trends."
+    }
+  ]
+}
