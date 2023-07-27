@@ -22,7 +22,7 @@ const App = () => {
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
-  console.log("hey");
+
   return (
     <div>
       <Navigation />
