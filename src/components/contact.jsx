@@ -1,6 +1,6 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
 import React from "react";
+import axios from "axios";
 
 const initialState = {
   name: "",
@@ -19,17 +19,25 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    // TODO: have this refined.
+    const formData = {
+      firstName: name,
+      lastName: name,
+      email: email,
+      phoneNumber: email,
+      projectDescription: message,
+    };
+    console.log(formData);
+    axios
+      .post("https://landing-page-api.onrender.com/api/send-email", formData)
+      .then((response) => {
+        console.log("Email sent successfully");
+        // Clear form fields
+        clearState();
+      })
+      .catch((error) => {
+        console.error("Error sending email:", error);
+      });
   };
   return (
     <div>
@@ -149,10 +157,10 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
+            &copy; Copyright 2023, Altiro, LLC. All Right Reserved.
+            {/* <a href="http://www.templatewire.com" rel="nofollow">
               TemplateWire
-            </a>
+            </a> */}
           </p>
         </div>
       </div>
