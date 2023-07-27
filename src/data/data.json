@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "Let's make your idea a reality.",
-    "paragraph": "Altiro is a dedicated software development agency. Our specialty is crafting custom solutions, enabling you to focus on what you do best."
+    "paragraph": "Altiro is a dedicated software development agency. We take the guesswork out of software solutions so businesses can focus on serving their customers."
   },
   "About": {
     "paragraph": "We're an emerging software development agency blending fresh innovation with deep expertise. Our seasoned team is ready to transform your vision into top-tier digital solutions. Your project's success is our mission. Join us on this journey, and let's grow together, turning software dreams into reality.",
@@ -78,8 +78,8 @@
     },
     {
       "icon": "fa fa-ship",
-      "name": "DevOps & CI/CD Implementation",
-      "text": "We revolutionize your workflow with bespoke DevOps and CI/CD implementation, fueling rapid software delivery and operational excellence."
+      "name": "DevOps",
+      "text": "We handle the tech of your software updates, making them fast and efficient. Less hassle for you, smoother operations, more time for your core work."
     },
     {
       "icon": "fa fa-database",
