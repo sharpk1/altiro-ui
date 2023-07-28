@@ -215,6 +215,12 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
+
+@media only screen and (max-width: 400px) {
+  .intro {
+    width: 111%;
+  }
+}
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
@@ -226,6 +232,12 @@ a:focus,
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .intro h1 {
+    font-size: 75px;
+  }
 }
 .intro h1 span {
   font-weight: 800;
