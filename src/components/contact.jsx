@@ -1,14 +1,23 @@
 import { useState } from "react";
 import React from "react";
 import axios from "axios";
+import { Oval } from "react-loader-spinner";
 
 const initialState = {
   name: "",
   email: "",
   message: "",
 };
+
+const LoadingStatus = {
+  IDLE: "idle",
+  LOADING: "loading",
+  COMPLETED: "completed",
+};
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [loadingStatus, setLoadingStatus] = useState(LoadingStatus.IDLE);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,8 +27,7 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    // TODO: have this refined.
+    setLoadingStatus(LoadingStatus.LOADING);
     const formData = {
       firstName: name,
       lastName: name,
@@ -27,17 +35,28 @@ export const Contact = (props) => {
       phoneNumber: email,
       projectDescription: message,
     };
-    console.log(formData);
     axios
       .post("https://landing-page-api.onrender.com/api/send-email", formData)
       .then((response) => {
-        console.log("Email sent successfully");
-        // Clear form fields
+        setLoadingStatus(LoadingStatus.COMPLETED);
         clearState();
       })
       .catch((error) => {
         console.error("Error sending email:", error);
+        setLoadingStatus(LoadingStatus.IDLE);
       });
+  };
+
+  const getButtonText = () => {
+    switch (loadingStatus) {
+      case LoadingStatus.LOADING:
+        return "Please Wait";
+      case LoadingStatus.COMPLETED:
+        return "Message Sent!";
+      case LoadingStatus.IDLE:
+      default:
+        return "Send Message";
+    }
   };
   return (
     <div>
@@ -96,9 +115,39 @@ export const Contact = (props) => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
-                </button>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <button
+                    type="submit"
+                    className="btn btn-custom btn-lg"
+                    style={{
+                      borderRadius: "25px",
+                      fontSize: "15px",
+                      padding: "14px 34px",
+                      fontWeight: 500,
+                      display: "flex",
+                      alignItems: "center",
+                    }}
+                  >
+                    {getButtonText()}
+                    {loadingStatus === LoadingStatus.LOADING && (
+                      <Oval
+                        wrapperStyle={{ marginLeft: "10px" }}
+                        height={20}
+                        width={20}
+                        color="#FFFF"
+                        ariaLabel="oval-loading"
+                        secondaryColor="#FFFF"
+                        strokeWidth={2}
+                        strokeWidthSecondary={2}
+                      />
+                    )}
+                  </button>
+                </div>
               </form>
             </div>
           </div>
