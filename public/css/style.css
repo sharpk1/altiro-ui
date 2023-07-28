@@ -215,12 +215,6 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
-
-/* @media only screen and (max-width: 400px) {
-  .intro {
-    width: 111%;
-  }
-} */
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
@@ -233,12 +227,6 @@ a:focus,
   margin-top: 0;
   margin-bottom: 10px;
 }
-
-/* @media only screen and (max-width: 400px) {
-  .intro h1 {
-    font-size: 75px;
-  }
-} */
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
@@ -252,32 +240,19 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 350px;
+  padding-bottom: 200px;
   text-align: center;
 }
+
 @media only screen and (max-width: 767px) {
   .intro h1 {
-    font-size: 50px; /* Adjust the font size for mobile */
+    font-size: 36px; /* Adjust the font size for mobile */
   }
-
-  .intro p {
-    font-size: 18px; /* Adjust the font size for mobile */
-    line-height: 24px; /* Adjust line-height for better readability */
-  }
-
-  .intro .overlay {
-    background: rgba(
-      0,
-      0,
-      0,
-      0.5
-    ); /* Adjust overlay for better visibility on mobile */
-  }
-
-  header .intro-text {
-    padding-top: 100px; /* Further reduce padding for better mobile view */
-    padding-bottom: 80px; /* Further reduce padding for better mobile view */
+}
+@media only screen and (max-width: 399px) {
+  .intro {
+    width: 111%; /* Set width to 111% for screens 399px or below */
   }
 }
 /* Features Section */
