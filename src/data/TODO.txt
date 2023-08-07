@@ -1,0 +1,14 @@
+TODO:
+
+- write the descriptions for
+  - mobile,
+  - web,
+  - devops,
+  - database,
+  - think of something for th diamond or just redo it something that can be viable
+- and then the pie chart
+- create a placeholder component for the meet the team and write something about the hiring
+- redo the contact information
+- add the API call for the get in touch thing.
+- add an option for the writers block situation
+-

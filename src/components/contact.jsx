@@ -20,6 +20,8 @@ export const Contact = (props) => {
   const [loadingStatus, setLoadingStatus] = useState(LoadingStatus.IDLE);
 
   const handleChange = (e) => {
+    console.log(loadingStatus);
+
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
