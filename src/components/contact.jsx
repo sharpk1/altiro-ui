@@ -38,7 +38,10 @@ export const Contact = (props) => {
       projectDescription: message,
     };
     axios
-      .post("https://landing-page-api.onrender.com/api/send-email", formData)
+      .post(
+        "https://sparkplug-api.onrender.com/email/send-contact-email",
+        formData
+      )
       .then((response) => {
         setLoadingStatus(LoadingStatus.COMPLETED);
         clearState();
