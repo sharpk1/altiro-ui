@@ -1,30 +1,23 @@
 import React from "react";
+import CustomCard from "./CustomCard";
+import "./team.css";
 
 export const Team = (props) => {
   return (
     <div id="team" className="text-center">
       <div className="container">
-        <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
-          <p>Moving Ahead - Growing Organically</p>
+        <div>
+          <h2>Portfolio</h2>
+          <p>Our Work - Driving Innovation</p>
         </div>
-        <div id="row">
+        <div className="team-row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md col-sm-6 team">
-                  <div className="thumbnail">
-                    {" "}
-                    <img
-                      src={d.img}
-                      style={{ height: "319px" }}
-                      alt="..."
-                      className="team-img"
-                    />
-                    <div className="caption">
-                      <h4>{d.name}</h4>
-                      <p>{d.job}</p>
-                    </div>
-                  </div>
+                <div
+                  key={`${d.name}-${i}`}
+                  className="col-lg-4 col-md-6 col-sm-12 team"
+                >
+                  <CustomCard info={d} />
                 </div>
               ))
             : "loading"}

@@ -131,14 +131,16 @@
   ],
   "Team": [
     {
-      "img": "img/team/fixed.jpg",
-      "name": "Kush Shah",
-      "job": "Founder & CEO"
+      "img": "img/team/quizcraft.png",
+      "name": "QuizCraft",
+      "job": "Founder & CEO",
+      "information": "uses AI to generate personalized quizzes, helping users continue their learning journey. It tailors questions to individual progress and interests, ensuring an engaging and effective learning experience."
     },
     {
-      "img": "img/team/dog3.png",
-      "name": "We're Hiring!",
-      "job": "Please inquire via email with a resume"
+      "img": "img/team/sharespark.png",
+      "name": "ShareSpark",
+      "job": "Please inquire via email with a resume",
+      "information": "is a web app that helps churches and non-profits increase donations through personalized email marketing and customizable templates. It simplifies campaign creation, tracks engagement, and integrates with websites to boost contributions effectively."
     }
   ],
   "Contact": {
