@@ -13,7 +13,15 @@ const LottieAnimation = () => {
     },
   };
 
-  return <Lottie options={defaultOptions} height={400} width={400} />;
+  return (
+    <div
+      role="img"
+      aria-label="Animation showing a gif of a hand developing mobile and web applications."
+      style={{ width: 400, height: 400 }}
+    >
+      <Lottie options={defaultOptions} height={400} width={400} />
+    </div>
+  );
 };
 
 export default LottieAnimation;

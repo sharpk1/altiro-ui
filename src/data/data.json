@@ -69,32 +69,38 @@
     {
       "icon": "fa fa-mobile",
       "name": "Mobile Application Development",
-      "text": "We deliver engaging, high-performance mobile apps for iOS and Android to drive your business growth."
+      "text": "We deliver engaging, high-performance mobile apps for iOS and Android to drive your business growth.",
+      "label": "Icon of a smartphone inside a blue circular gradient background."
     },
     {
       "icon": "fa fa-desktop",
       "name": "Web Application Development",
-      "text": "We create robust, user-friendly web applications tailored to enhance your online presence and catalyze business growth."
+      "text": "We create robust, user-friendly web applications tailored to enhance your online presence and catalyze business growth.",
+      "label": "Icon of a desktop inside a blue circular gradient background."
     },
     {
       "icon": "fa fa-ship",
       "name": "DevOps",
-      "text": "We handle the tech of your software updates, making them fast and efficient. Less hassle for you, smoother operations, more time for your core work."
+      "text": "We handle the tech of your software updates, making them fast and efficient. Less hassle for you, smoother operations, more time for your core work.",
+      "label": "Icon of a ship inside a blue circular gradient background."
     },
     {
       "icon": "fa fa-database",
       "name": "Database Design & Backend Development",
-      "text": "We architect reliable databases and engineer robust backends, forming the foundation of high-performing digital solutions tailored for your business."
+      "text": "We architect reliable databases and engineer robust backends, forming the foundation of high-performing digital solutions tailored for your business.",
+      "label": "Icon of a database inside a blue circular gradient background."
     },
     {
       "icon": "fa fa-gears",
       "name": "Software Quality Assurance and Automation",
-      "text": "We offer comprehensive Software Quality Assurance and Automation services, including test automation, cross-platform and performance testing, security assessments, CI/CD integration, and detailed documentation and training."
+      "text": "We offer comprehensive Software Quality Assurance and Automation services, including test automation, cross-platform and performance testing, security assessments, CI/CD integration, and detailed documentation and training.",
+      "label": "Icon of gears inside a blue circular gradient background."
     },
     {
       "icon": "fa fa-pie-chart",
       "name": "Data Analytics and AI",
-      "text": "Implementing data analytics, machine learning, or AI capabilities to support decision-making and predictive analysis."
+      "text": "Implementing data analytics, machine learning, or AI capabilities to support decision-making and predictive analysis.",
+      "label": "Icon of a pie chart inside a blue circular gradient background."
     }
   ],
   "Testimonials": [
@@ -134,13 +140,15 @@
       "img": "img/team/quizcraft.png",
       "name": "QuizCraft",
       "job": "Founder & CEO",
-      "information": "uses AI to generate personalized quizzes, helping users continue their learning journey. It tailors questions to individual progress and interests, ensuring an engaging and effective learning experience."
+      "information": "uses AI to generate personalized quizzes, helping users continue their learning journey. It tailors questions to individual progress and interests, ensuring an engaging and effective learning experience.",
+      "label": "Screenshots of an app interface that uses AI to create quizzes."
     },
     {
       "img": "img/team/sharespark.png",
       "name": "ShareSpark",
       "job": "Please inquire via email with a resume",
-      "information": "is a web app that helps churches and non-profits increase donations through personalized email marketing and customizable templates. It simplifies campaign creation, tracks engagement, and integrates with websites to boost contributions effectively."
+      "information": "is a web app that helps churches and non-profits increase donations through personalized email marketing and customizable templates. It simplifies campaign creation, tracks engagement, and integrates with websites to boost contributions effectively.",
+      "label": "Screenshots of an app interface that helps churches and non-profits increase donations."
     }
   ],
   "Contact": {

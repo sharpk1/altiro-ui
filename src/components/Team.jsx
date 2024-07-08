@@ -14,6 +14,7 @@ export const Team = (props) => {
           {props.data
             ? props.data.map((d, i) => (
                 <div
+                  aria-label={d.label}
                   key={`${d.name}-${i}`}
                   className="col-lg-4 col-md-6 col-sm-12 team"
                 >
