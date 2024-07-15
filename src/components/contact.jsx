@@ -31,17 +31,14 @@ export const Contact = (props) => {
     e.preventDefault();
     setLoadingStatus(LoadingStatus.LOADING);
     const formData = {
-      firstName: name,
-      lastName: name,
+      access_key: "eecbbf0a-b35f-4635-85ad-ba6826066287",
       email: email,
-      phoneNumber: email,
-      projectDescription: message,
+      subject: `New message from ${name}`,
+      message: message,
     };
+
     axios
-      .post(
-        "https://sparkplug-api.onrender.com/email/send-contact-email",
-        formData
-      )
+      .post("https://api.web3forms.com/submit", formData)
       .then((response) => {
         setLoadingStatus(LoadingStatus.COMPLETED);
         clearState();
