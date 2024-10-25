@@ -137,10 +137,10 @@
   ],
   "Team": [
     {
-      "img": "img/team/quizcraft.png",
-      "name": "QuizCraft",
+      "img": "img/team/Comicfy.ai.png",
+      "name": "Comicfy",
       "job": "Founder & CEO",
-      "information": "uses AI to generate personalized quizzes, helping users continue their learning journey. It tailors questions to individual progress and interests, ensuring an engaging and effective learning experience.",
+      "information": " uses AI to transform text into visual stories, making learning more engaging and accessible. It breaks down complex information into illustrated summaries, tailored to captivate visual learners and save teachers time. With Comicfy, students can explore new topics through vivid storytelling, making education both fun and effective.",
       "label": "Screenshots of an app interface that uses AI to create quizzes."
     },
     {
